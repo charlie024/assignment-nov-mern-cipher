@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+    <style>        
+        .one {
+            background-color: gray;
+            padding: 35px 10px;
+            /* border: 5px solid black;
+            border-radius: 40px; */                   
+        }      
+
+        .two {
+            background-color: #222130;        
+            /* padding: 35px 10px; */
+            padding: 70px;
+        }          
+
+        h1 {               
+            font-family: 'Courier New';
+            text-align: center;      
+            color: #eb8613;            
+        }
+
+        hr {
+            width: 50px;            
+        }
+
+        div {
+            position: relative;
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+
+        #aboutDiv {
+            position: relative;
+            padding-left: 300px;
+            color: white;
+        }
+
+        #resume {
+            background-color:#eb8613;
+            color: white;
+            padding: 5px 10px;
+        }
+                
+        .b2 {
+            background-color: gray;
+            color: red;            
+        }
+        
+
+        li:hover {
+            font-size: 150%;
+            text-decoration: underline;
+            color:lawngreen;
+        }
+
+        i {
+            color: coral;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            /* background-color: #2196F3; */
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: #222130;
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 40px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+        #edu > div {
+            background: gray;
+        }
+
+        #ipskills > div {
+            background: gray;
+        }
+
+        .navi {
+            display: inline;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: coral;            
+        }
+
+        nav {
+            text-align: center;
+            background-color: gray;    
+            border-radius: 50px;                    
+        }
+        
+    </style>
+</head>
+<body>    
+    <section class = "two" style="padding-top: 30px">
+        <h1 style="text-align: left;">
+            <span>
+                <strong>
+                    Resume
+                </strong>
+            </span>
+        </h1>
+        <nav>
+            <ul style="padding: 20px;">
+                <li class="navi"><a href = "#aboutDiv">ABOUT ME</a></li>
+                <li class="navi"><a href = "#edu">EDUCATON</a></li>
+                <li class="navi"><a href = "#techskills">TECHNICAL SKILLS</a>
+                <li class="navi"><a href = "#ipskills">INTERPERSONAL SKILLS</li>
+                <li class="navi"><a href = "#contacts">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <img src="./image.png" style="border-radius: 150px;">
+
+    </section>
+    <section class = "one">        
+        <div>
+            <h1><strong>ABOUT ME</strong></h1>            
+            <hr>
+            <br>
+            <div id = "aboutDiv">
+                <h2>Sridhar N S</h2>
+                <h3>Data Scientist, Web Developer, Competitive Programmer</h3>            
+                <p>A versatile computer engineer, always looking to improve!</p>            
+                <h3>Objective</h3>            
+                <p>Want to enjoy my work, so that work doesn't seem like "WORK", instead becomes fun!</p>
+                <button id="resume">Download Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="two">        
+        <h1><stong>EDUCATION</stong></h1>
+            <hr>
+        <div class="grid-container" id = "edu">            
+            <div class="grid-item">
+                <p>
+                    U.G<br><br>
+                    Computer Science<br><br>
+                    Reva University, Bangalore<br><br>
+                    (2017 - present)<br><br>
+                    <span style="color: coral">Secured 8.55 cgpa upto 6th Semester</span>
+                </p>                
+            </div>
+
+            <div class="grid-item">
+                <p>
+                    10+2 (PCMC)<br><br>
+                    St. Vincent Pallotti School<br><br>
+                    (2017)<br><br>                    
+                    <span style="color: coral">Secured 93 %</span><br><br><br>
+                </p>
+            </div>
+
+            <div class="grid-item">
+                <p>
+                    10th<br><br>                
+                    St. Vincent Pallotti School<br><br>
+                    (2015)<br><br>
+                    <span style="color: coral">Secured 92.33 %</span><br><br><br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="one">
+        <h1 id = "techskills">TECHNICAL SKILLS</h1>
+        <hr>
+        <div class="grid-container">
+            <div class="grid-item">
+                <li>Python</li>
+            </div>
+            <div class="grid-item">
+                <li>Core Java</li>
+            </div>
+            <div class="grid-item">
+                <li>Data Science</li>
+            </div>  
+            <div class="grid-item">
+                <li>C/C++</li>
+            </div>
+            <div class="grid-item">
+                <li>SQL</li>
+            </div>
+            <div class="grid-item">
+                <li>JavaScript</li>
+            </div>  
+            <div class="grid-item">
+                <li>R</li>
+            </div>
+            <div class="grid-item">
+                <li>Perl (basics)</li>
+            </div>
+            <div class="grid-item">
+                <li>Machine learning</li>
+            </div>  
+            <div class="grid-item">
+                <li>HTML/CSS</li>
+            </div>
+            <div class="grid-item">
+                <li>Big Data</li>
+            </div>
+            <div class="grid-item">
+                <li>Web Development</li>
+            </div>
+          </div>
+    </section>
+
+    <section class="two">
+        <h1 id = "ipskills">INTERPERSONAL SKILLS</h1>
+        <hr>
+        <div class = "grid-container" id = "ipskills">            
+            <div class="grid-item">
+                <li>Realist</li>
+            </div>
+            <div class="grid-item">
+                <li>Extrovert</li>
+            </div>
+            <div class="grid-item">
+                <li>MultiTasking</li>
+            </div>
+            <div class="grid-item">
+                <li>Motivation</li>
+            </div>
+            <div class="grid-item">
+                <li>Goal-Oriented</li>
+            </div>
+            <div class="grid-item">
+                <li>Team Work</li>
+            </div>
+            <div class="grid-item">
+                <li>Sportive</li>
+            </div>
+            <div class="grid-item">
+                <li>Time Management</li>
+            </div>
+        </div>        
+    </section>
+
+    <section class="one">
+        <h1 id = "contacts">CONTACTS</h1>
+        <hr>
+        <div class = "grid-container">
+            <div class="grid-item">
+                <i class="fas fa-phone-alt"></i>
+                <br><br>
+                PHONE
+                <br><br>
+                <span style="color: coral">+91 9********2</span>
+            </div>
+            <div class="grid-item">
+                <i class = "fas fa-envelope"></i>
+                <br><br>
+                EMAIL
+                <br><br>
+                <span style="color: coral">iamsridhar11@gmail.com</span>                
+            </div>
+            <div class="grid-item">
+                <i class = "fa fa-map-marker"></i>
+                <br></br>
+                Bangalore, Karnataka
+                <br><br>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
