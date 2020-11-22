@@ -3,8 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>    
+    <title>Document</title>   
+    <style>
+        body {
+            background-color: #222130;
+        }
+
+        h1 {
+            font-size: 150%;
+            text-align: center;
+            color: white;
+            margin: 100px;             
+        }    
+
+        #login {
+            text-align: center;
+            border: 1px solid beige; 
+            background-color:beige;
+            width: 40%;
+            position: relative;
+            left: 350px;
+            margin: 100px;            
+            border-radius: 50px;
+        }
+
+        input[type="submit"]:hover {
+            color: magenta;
+        }
+
+        a {
+            text-decoration: none;
+            position: relative;
+            left: 50px;                        
+        }
+
+        a > input[type="submit"] {
+            border-radius: 0px;
+            background-color: lawngreen;
+            color: black;            
+            width: 70px;
+        }
+
+        input[type="submit"]:hover {
+            border-radius: 50px;
+            background-color: white;
+            border: 5px solid black;
+            color: black;
+            font-weight: bold;
+        }
+        
+        input[type="email"], input[type="password"], input[type="submit"] {
+            text-align: right;
+            font-family: arial;
+            border-radius: 40px;
+            background-color:azure;
+            padding: 10px;
+            margin: 50px;
+            margin-left: 150px;
+            display: block;
+            position: relative;
+            left: 50px;
+            border: beige;
+            /* color: #eb8613; */
+        }
+    </style> 
 </head>
-<body>    
+<body>
+    <header>
+        <h1>
+            RESUME
+        </h1>        
+    </header>
+    
+    <main>
+        <div>
+            <div id = "login">
+                <form action = "./home.html">
+                    <input type = "email" placeholder = "your email">
+                    <input type = "password" placeholder = "your password">
+                    <a href = "./home.html" target="_blank">
+                        <input type = "submit" value = "log in">
+                    </a>
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
