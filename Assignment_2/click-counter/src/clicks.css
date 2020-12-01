@@ -1,0 +1,40 @@
+.click {
+    background-color: white;
+    width: 240px;
+    height: auto;
+    margin: 100px;
+    border: 2px solid brown;
+    /* box-shadow: 10px 15px 15px magenta; */
+    text-align: center;
+    border-radius: 3px;
+    font-size: 35px;
+    color: crimson;
+    position: relative;
+    left: 550px;
+}
+
+button {
+    height: 50px;    
+    width: 80px;
+    margin-top: 30px;    
+}
+
+#minus {
+    background-color: black;
+}
+
+#refresh {
+    background-color: beige;
+}
+
+#iMinus {
+    color: white;
+}
+
+#iPlus {
+    color: white;
+}
+
+#plus {
+    background-color: brown;
+}
